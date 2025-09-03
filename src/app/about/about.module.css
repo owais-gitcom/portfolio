@@ -1,0 +1,366 @@
+/* aboutsec1 */
+
+@font-face {
+  font-family: mainfont;
+  src: url("/fonts/TT Octosquares Trial Bold.ttf");
+}
+
+/* ============ HERO SECTION ============ */
+.heroSection1 {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  background: url("/productima.png") no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: -5%;
+}
+
+.overla1y {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.content1 {
+  position: relative;
+  color: white;
+  z-index: 2;
+}
+
+.title1 {
+  font-size: 50px;
+
+  letter-spacing: 2px;
+  margin-top: 10%;
+  font-family: mainfont;
+}
+
+.breadcrumb1 {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.breadcrumbLink1 {
+  color: #fff;          /* normal color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.breadcrumbLink1:hover {
+  color: rgb(204, 255, 0);  /* hover par highlight */
+}
+
+
+.separator1 {
+  width: 20px;
+  height: 2px;
+  background: #a5ff00;
+  align-self: center;
+}
+
+.active1 {
+  color: #a5ff00;
+}
+
+/* aboutsec1 */
+
+/* aboutsec2 */
+
+.aboutsec2{
+    background: rgb(17, 20, 16);
+    padding-top: 7%;
+}
+
+/* box */
+.headingWrapper2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+.side2 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.square2 {
+  width: 12px;
+  height: 12px;
+  background-color: rgb(204, 255, 0); /* apni color pasand se */
+}
+
+.line2 {
+  width: 50px; /* apne hisab se */
+  height: 2px;
+  background-color: rgb(204, 255, 0); /* apni color pasand se */
+}
+
+.headingText2 {
+   font-size: 20px;
+  font-family: mainfont;
+  color: rgb(204, 255, 0);
+}
+
+/* box */
+
+.aboutsec2 h1{
+    font-size: 45px;
+  font-family: mainfont;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.aboutsec2 p{
+  text-align: center;
+  padding-bottom: 2%;
+  color: rgb(188, 189, 187);
+  font-size: 1.2rem;
+  
+}
+
+/* aboutsec2 */
+
+/* aboutsec3 */
+
+.aboutsec3{
+    background: rgb(17, 20, 16);
+    padding-top: 4%;
+}
+
+.aboutsec3 h2{
+  font-family: mainfont;
+  font-size: 4rem;
+}
+
+.aboutsec3 p{
+    color: rgb(188, 189, 187);
+    font-size: 1rem;
+}
+
+/* aboutsec3 */
+
+/* aboutsec4 */
+
+.aboutsec4{
+    background: rgb(17, 20, 16);
+    padding-top: 7%;
+}
+
+/* box */
+.headingWrapper4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+.side4 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.square4 {
+  width: 12px;
+  height: 12px;
+  background-color: rgb(204, 255, 0); /* apni color pasand se */
+}
+
+.line4 {
+  width: 50px; /* apne hisab se */
+  height: 2px;
+  background-color: rgb(204, 255, 0); /* apni color pasand se */
+}
+
+.headingText4 {
+   font-size: 20px;
+  font-family: mainfont;
+  color: rgb(204, 255, 0);
+}
+
+/* box */
+
+.aboutsec4 h1{
+    font-size: 45px;
+  font-family: mainfont;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.aboutsec4 p{
+  text-align: center;
+  padding-bottom: 2%;
+  color: rgb(188, 189, 187);
+  font-size: 1.2rem;
+  
+}
+
+/* aboutsec4 */
+
+/* Section */
+.aboutsec5 {
+  background: rgb(17, 20, 16);
+  padding: 6% 5%;
+  text-align: center;
+}
+
+/* Heading wrapper */
+.headingWrapper5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.side5 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.square5 {
+  width: 12px;
+  height: 12px;
+  background-color: rgb(204, 255, 0);
+}
+
+.line5 {
+  width: 50px;
+  height: 2px;
+  background-color: rgb(204, 255, 0);
+}
+
+.headingText5 {
+  font-size: 20px;
+  font-family: mainfont;
+  color: rgb(204, 255, 0);
+  text-align: center;
+}
+
+/* Title */
+.aboutsec5 h1 {
+  font-size: 45px;
+  font-family: mainfont;
+  text-align: center;
+  padding: 1% 0;
+  color: white;
+}
+
+/* Input */
+.emailInput {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+/* Button container */
+.button4container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ================= BUTTON 4 ================= */
+.button4 {
+  position: relative;
+  display: inline-block;
+  padding: 15px 40px;
+  font-family: mainfont;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.3s ease;
+  background: rgb(204, 255, 0);
+  color: black;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+/* Lines */
+.lineLeft4, .lineRight4 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2px;
+  height: 25px;
+  background-color: black;
+}
+.lineLeft4 { left: 10px; }
+.lineRight4 { right: 10px; }
+
+/* Squares */
+.squareLeftTop4, .squareRightTop4,
+.squareLeftBottom4, .squareRightBottom4 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+}
+.squareLeftTop4, .squareRightTop4 {
+  background-color: black;
+}
+.squareLeftBottom4, .squareRightBottom4 {
+  border: 2px solid black;
+  background: transparent;
+}
+.squareLeftTop4 { left: 6px; top: calc(50% - 16px); }
+.squareLeftBottom4 { left: 6px; bottom: calc(50% - 16px); }
+.squareRightTop4 { right: 6px; top: calc(50% - 16px); }
+.squareRightBottom4 { right: 6px; bottom: calc(50% - 16px); }
+
+/* Hover */
+.button4:hover {
+  background: rgb(30, 33, 24);
+  color: white;
+}
+.button4:hover .lineLeft4,
+.button4:hover .lineRight4 {
+  background-color: white;
+}
+.button4:hover .squareLeftTop4,
+.button4:hover .squareRightTop4 {
+  background-color: white;
+}
+.button4:hover .squareLeftBottom4,
+.button4:hover .squareRightBottom4 {
+  border-color: white;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 992px) {
+  .aboutsec5 h1 { font-size: 36px; }
+  .headingText5 { font-size: 14px; }
+}
+
+@media (max-width: 768px) {
+  .aboutsec5 h1 { font-size: 28px; }
+  .emailInput { width: 90%; }
+  .button4 { padding: 12px 30px; font-size: 14px; }
+}
+
+@media (max-width: 576px) {
+  .aboutsec5 h1 { font-size: 22px; }
+  .emailInput { padding: 10px; font-size: 14px; width: 100%; }
+  .button4 { padding: 10px 25px; font-size: 13px; width: 100%; }
+}
+
+@media (max-width: 400px) {
+  .aboutsec5 h1 { font-size: 20px; }
+  .button4 { font-size: 12px; padding: 8px 20px; }
+}

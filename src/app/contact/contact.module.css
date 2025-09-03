@@ -1,0 +1,462 @@
+/* aboutsec1 */
+
+@font-face {
+  font-family: mainfont;
+  src: url("/fonts/TT Octosquares Trial Bold.ttf");
+}
+
+/* ============ HERO SECTION ============ */
+.heroSection1 {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  background: url("/productima.png") no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: -5%;
+}
+
+.overla1y {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.content1 {
+  position: relative;
+  color: white;
+  z-index: 2;
+}
+
+.title1 {
+  font-size: 50px;
+  letter-spacing: 2px;
+  margin-top: 10%;
+  font-family: mainfont;
+}
+
+.breadcrumb1 {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.breadcrumbLink1 {
+  color: #fff;          /* normal color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.breadcrumbLink1:hover {
+  color: rgb(204, 255, 0);  /* hover par highlight */
+}
+
+
+.separator1 {
+  width: 20px;
+  height: 2px;
+  background: #a5ff00;
+  align-self: center;
+}
+
+.active1 {
+  color: #a5ff00;
+}
+
+/* aboutsec1 */
+
+
+
+/* ================= CONTACT SECTION ================= */
+.contactSection {
+    background: rgb(17, 20, 16);
+  color: #fff;
+  padding: 80px 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.contactContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+  align-items: start;
+}
+
+.contactText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.subHeading {
+  color: #c6ff00;
+  font-weight: bold;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+
+
+/* .description {
+  color: #aaa;
+  line-height: 1.6;
+} */
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input,
+.textarea {
+  background: #1a1c19;
+  border: 1px solid #333;
+  color: #fff;
+  padding: 15px;
+  font-size: 1rem;
+}
+
+.textarea {
+  min-height: 150px;
+  resize: none;
+}
+
+.button {
+  background: #c6ff00;
+  color: #000;
+  font-weight: bold;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background: #aee600;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+  .contactContainer {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+.button4container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* vertical centering agar height set ho */
+  padding-top: 5%;
+  padding-bottom: 8%;
+}
+
+
+
+/* ================= BUTTON 4 (VIEW MORE) ================= */
+.button4 {
+  position: relative;
+  display: inline-block;
+  padding: 15px 40px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  transition: 0.3s ease;
+    background: rgb(204, 255, 0);
+    color: black;
+}
+
+/* Lines */
+.lineLeft4, .lineRight4 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2px;
+  height: 25px;
+  background-color: black;
+}
+.lineLeft4 { left: 10px; }
+.lineRight4 { right: 10px; }
+
+/* Squares */
+.squareLeftTop4, .squareRightTop4 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+}
+
+.squareLeftBottom4, .squareRightBottom4 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: 2px solid black;
+  background: transparent;
+}
+
+.squareLeftTop4 { left: 6px; top: calc(50% - 16px); }
+.squareLeftBottom4 { left: 6px; bottom: calc(50% - 16px); }
+.squareRightTop4 { right: 6px; top: calc(50% - 16px); }
+.squareRightBottom4 { right: 6px; bottom: calc(50% - 16px); }
+
+
+/* hover */
+
+.button4 {
+  position: relative;
+  display: inline-block;
+  padding: 15px 40px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  transition: 0.3s ease;
+  background: rgb(204, 255, 0);
+  color: black;
+
+    border-top: 2px solid white;   /* Top border */
+  border-bottom: 2px solid white; /* Bottom border */
+}
+
+/* Default lines for button1 */
+.lineLeft4, .lineRight4{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2px;
+  height: 25px;
+  background-color: black;
+}
+.lineLeft4 { left: 10px; }
+.lineRight4 { right: 10px; }
+
+/* Default squares for button1 */
+.squareLeftTop4, .squareRightTop4,
+.squareLeftBottom4, .squareRightBottom4 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+}
+.squareLeftTop4, .squareRightTop4 {
+  background-color: black;
+}
+.squareLeftBottom4, .squareRightBottom4 {
+  border: 2px solid black;
+  background: transparent;
+}
+.squareLeftTop4 { left: 6px; top: calc(50% - 16px); }
+.squareLeftBottom4 { left: 6px; bottom: calc(50% - 16px); }
+.squareRightTop4 { right: 6px; top: calc(50% - 16px); }
+.squareRightBottom4 { right: 6px; bottom: calc(50% - 16px); }
+
+/* 🔹 Hover Effect to look like button2 */
+.button4:hover {
+  background: rgb(30, 33, 24);
+  color: white;
+}
+
+/* Hover lines change */
+.button4:hover .lineLeft1,
+.button4:hover .lineRight1 {
+  background-color: white;
+}
+
+/* Hover squares change */
+.button4:hover .squareLeftTop1,
+.button4:hover .squareRightTop1 {
+  background-color: white;
+}
+
+.button4:hover .squareLeftBottom1,
+.button4:hover .squareRightBottom1 {
+  border-color: white;
+}
+
+/* hover */
+
+
+
+/* contactsec1 */
+
+.contactsec1{
+    background: rgb(17, 20, 16);
+    padding-top: 7%;
+    
+}
+
+/* box */
+.headingWrapper1 {
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+
+}
+
+.side1 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.square1 {
+  width: 12px;
+  height: 12px;
+  background-color: rgb(204, 255, 0); /* apni color pasand se */
+
+}
+
+.line1 {
+  width: 50px; /* apne hisab se */
+  height: 2px;
+  background-color: rgb(204, 255, 0); /* apni color pasand se */
+
+}
+
+.headingText1 {
+   font-size: 15px;
+  font-family: mainfont;
+  color: rgb(204, 255, 0);
+  text-align: left;
+
+}
+
+.heading {
+  font-size: 3.2rem;
+  margin-bottom: 20px;
+  padding-top: 4%;
+  text-align: left;
+  font-family: mainfont ;
+
+}
+
+.description {
+  color: #aaa;
+  line-height: 1.6;
+}
+
+
+
+/* ================= RESPONSIVE FIXES ================= */
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .title1 {
+    font-size: 40px;
+  }
+
+  .heading {
+    font-size: 2.5rem;
+  }
+}
+
+/* Mobile Landscape */
+@media (max-width: 768px) {
+  .heroSection1 {
+    height: 350px;
+    margin-top: 0;
+  }
+
+  .title1 {
+    font-size: 32px;
+    margin-top: 20%;
+  }
+
+  .breadcrumb1 {
+    font-size: 12px;
+    gap: 10px;
+  }
+
+  .contactContainer {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .headingWrapper1 {
+    justify-content: center;
+  }
+
+  .headingText1 {
+    font-size: 14px;
+  }
+
+  .heading {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 2%;
+  }
+
+  .description {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    text-align: center;
+  }
+
+  .button4container {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .button4 {
+    padding: 12px 30px;
+    font-size: 14px;
+    width: 100%;
+    max-width: 280px;
+  }
+}
+
+/* Mobile Portrait */
+@media (max-width: 480px) {
+  .heroSection1 {
+    height: 280px;
+  }
+
+  .title1 {
+    font-size: 26px;
+    margin-top: 25%;
+  }
+
+  .headingText1 {
+    font-size: 12px;
+  }
+
+  .heading {
+    font-size: 1.6rem;
+  }
+
+  .description {
+    font-size: 0.8rem;
+  }
+
+  .button4 {
+    padding: 10px 25px;
+    font-size: 12px;
+    width: 100%;
+  }
+}

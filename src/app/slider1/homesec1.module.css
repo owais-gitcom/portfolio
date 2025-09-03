@@ -1,0 +1,395 @@
+.heroSection1 {
+  position: relative; /* Important for next/image fill to work */
+  width: 100%;
+  height: 110vh;
+  margin-top: -2%;
+  overflow: hidden;
+}
+
+.homeImage {
+  object-fit: cover; /* Behaves like background-size: cover */
+  object-position: center; /* Behaves like background-position: center */
+}
+
+   
+
+
+
+
+
+.main {
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(204, 255, 0);
+  text-align: center;
+  z-index: 10;
+  margin-top: 10%;
+}
+
+/* box */
+.headingWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.side {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.square {
+  width: 12px;
+  height: 12px;
+  background-color: rgb(204, 255, 0); /* apni color pasand se */
+}
+
+.line {
+  width: 50px; /* apne hisab se */
+  height: 2px;
+  background-color: rgb(204, 255, 0); /* apni color pasand se */
+}
+
+.headingText {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* box */
+
+.main h2 {
+  color: rgb(204, 255, 0);
+  margin: 0;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 4px black;
+    font-family: sans-serif;
+    letter-spacing  : 3px;
+}
+
+
+@font-face {
+  font-family: mainfont2;
+  src: url("/fonts/");
+}
+
+
+
+
+.main h1 {
+  margin: 0;
+  font-size: 3rem;
+  text-shadow: 2px 2px 8px black;
+  color: white;
+    font-family: mainfont;
+    line-height: 70px;
+  }
+
+@font-face {
+  font-family: mainfont;
+  src: url("/fonts/TT Octosquares Trial Bold.ttf");
+}
+
+
+
+.buttonContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+/* ================= BUTTON 1 (VIEW MORE) ================= */
+.button1 {
+  position: relative;
+  display: inline-block;
+  padding: 15px 40px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  transition: 0.3s ease;
+    background: rgb(204, 255, 0);
+    color: black;
+}
+
+/* Lines */
+.lineLeft1, .lineRight1 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2px;
+  height: 25px;
+  background-color: black;
+}
+.lineLeft1 { left: 10px; }
+.lineRight1 { right: 10px; }
+
+/* Squares */
+.squareLeftTop1, .squareRightTop1 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+}
+.squareLeftBottom1, .squareRightBottom1 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: 2px solid black;
+  background: transparent;
+}
+
+.squareLeftTop1 { left: 6px; top: calc(50% - 16px); }
+.squareLeftBottom1 { left: 6px; bottom: calc(50% - 16px); }
+.squareRightTop1 { right: 6px; top: calc(50% - 16px); }
+.squareRightBottom1 { right: 6px; bottom: calc(50% - 16px); }
+
+
+/* hover */
+
+.button1 {
+  position: relative;
+  display: inline-block;
+  padding: 15px 40px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  transition: 0.3s ease;
+  background: rgb(204, 255, 0);
+  color: black;
+}
+
+/* Default lines for button1 */
+.lineLeft1, .lineRight1 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2px;
+  height: 25px;
+  background-color: black;
+}
+.lineLeft1 { left: 10px; }
+.lineRight1 { right: 10px; }
+
+/* Default squares for button1 */
+.squareLeftTop1, .squareRightTop1,
+.squareLeftBottom1, .squareRightBottom1 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+}
+.squareLeftTop1, .squareRightTop1 {
+  background-color: black;
+}
+.squareLeftBottom1, .squareRightBottom1 {
+  border: 2px solid black;
+  background: transparent;
+}
+.squareLeftTop1 { left: 6px; top: calc(50% - 16px); }
+.squareLeftBottom1 { left: 6px; bottom: calc(50% - 16px); }
+.squareRightTop1 { right: 6px; top: calc(50% - 16px); }
+.squareRightBottom1 { right: 6px; bottom: calc(50% - 16px); }
+
+/* 🔹 Hover Effect to look like button2 */
+.button1:hover {
+  background: rgb(30, 33, 24);
+  color: white;
+}
+
+/* Hover lines change */
+.button1:hover .lineLeft1,
+.button1:hover .lineRight1 {
+  background-color: white;
+}
+
+/* Hover squares change */
+.button1:hover .squareLeftTop1,
+.button1:hover .squareRightTop1 {
+  background-color: white;
+}
+
+.button1:hover .squareLeftBottom1,
+.button1:hover .squareRightBottom1 {
+  border-color: white;
+}
+
+/* hover */
+
+
+/* ================= BUTTON 2 (SHOP NOW) ================= */
+.button2 {
+  position: relative;
+  display: inline-block;
+  padding: 15px 40px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  transition: 0.3s ease;
+  background: rgb(30, 33, 24);    
+  
+  border-top: 2px solid white;   /* Top border */
+  border-bottom: 2px solid white; /* Bottom border */
+}
+
+
+/* Lines */
+.lineLeft2, .lineRight2 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2px;
+  height: 25px;
+  background-color: white;
+}
+.lineLeft2 { left: 10px; }
+.lineRight2 { right: 10px; }
+
+/* Squares */
+.squareLeftTop2, .squareRightTop2 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+}
+.squareLeftBottom2, .squareRightBottom2 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: 2px solid white;
+  background: transparent;
+}
+
+.squareLeftTop2 { left: 6px; top: calc(50% - 16px); }
+.squareLeftBottom2 { left: 6px; bottom: calc(50% - 16px); }
+.squareRightTop2 { right: 6px; top: calc(50% - 16px); }
+.squareRightBottom2 { right: 6px; bottom: calc(50% - 16px); }
+
+
+
+
+
+.heroSection1 {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* fix height */
+  min-height: 550px; /* mobile ke liye minimum */
+  margin-top: -2%;
+  overflow: hidden;
+}
+
+.homeImage {
+  object-fit: cover;
+  object-position: center;
+}
+
+.main {
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(204, 255, 0);
+  text-align: center;
+  z-index: 10;
+  width: 90%; /* ✅ responsive width */
+  max-width: 1200px;
+  margin-top: 5%;
+}
+
+/* ✅ RESPONSIVE MEDIA QUERIES */
+@media (max-width: 1024px) {
+  .main h1 {
+    font-size: 2.5rem;
+    line-height: 1.3;
+  }
+  .main h2 {
+    font-size: 1rem;
+  }
+  .headingText {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroSection1 {
+    height: 90vh;
+    min-height: 500px;
+  }
+
+  .main {
+    top: 50%;
+    margin-top: 0;
+  }
+
+  .main h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  .main h2 {
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+  }
+
+  .headingWrapper {
+    flex-wrap: wrap; /* ✅ line break on small screens */
+    gap: 5px;
+  }
+
+  .buttonContainer {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .button1, .button2 {
+    padding: 12px 28px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroSection1 {
+    height: 80vh;
+    min-height: 420px;
+  }
+
+  .main h1 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+
+  .main h2 {
+    font-size: 0.8rem;
+  }
+
+  .headingText {
+    font-size: 15px;
+  }
+
+  .line {
+    width: 30px;
+  }
+
+  .button1, .button2 {
+    padding: 10px 22px;
+    font-size: 13px;
+  }
+}

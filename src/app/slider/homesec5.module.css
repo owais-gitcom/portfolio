@@ -1,0 +1,628 @@
+  /* Slider wrapper styling from react-slick */
+  .slick-slide {
+    position: relative;
+  }
+
+  .slick-dots li button:before {
+    color: white;
+    font-size: 12px;
+  }
+
+  .slick-prev,
+  .slick-next {
+    z-index: 10;
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    color: white;
+    font-size: 25px;
+  }
+
+  /* HOMSEC5 main container */
+  .homesec5 {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .homesec5 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+
+  /* Content wrapper over the image */
+  .contentWrapper {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    color: white;
+    text-align: left;
+    max-width: 600px;
+  }
+
+  /* Heading box */
+  .headingWrapper5 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .side5 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .square5 {
+    width: 12px;
+    height: 12px;
+    background-color: rgb(204, 255, 0);
+  }
+
+  .line5 {
+    width: 50px;
+    height: 2px;
+    background-color: rgb(204, 255, 0);
+  }
+
+  /* Extra shapes referenced in JSX */
+  .line4 {
+    width: 50px;
+    height: 2px;
+    background-color: rgb(204, 255, 0);
+  }
+
+  .squareLeftTop5 {
+    width: 12px;
+    height: 12px;
+    background-color: rgb(204, 255, 0);
+  }
+
+  /* Text styling */
+  .homesec5 h3 {
+    color: rgb(204, 255, 0);
+    font-size: 1.2rem;
+    font-family: mainfont, sans-serif;
+    letter-spacing: 2px;
+    margin: 0;
+  }
+
+  .homesec5 h1 {
+    font-size: 50px;
+    font-family: mainfont, sans-serif;
+    margin: 15px 0;
+  }
+
+  .homesec5 p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: rgb(187, 168, 168);
+  }
+
+  /* Button container */
+  .button5Container {
+    display: flex;
+    gap: 15px;
+  }
+
+  /* Button 1 */
+  .button1 {
+    position: relative;
+    padding: 12px 28px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: rgb(204, 255, 0);
+    color: black;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+  }
+
+  /* Button 2 */
+  .button2 {
+    position: relative;
+    padding: 12px 28px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: transparent;
+    color: white;
+    border: 2px solid rgb(204, 255, 0);
+    cursor: pointer;
+    overflow: hidden;
+  }
+
+  /* Decorative spans for buttons */
+  .lineRight1,
+  .lineRight2,
+  .lineLeft1,
+  .lineLeft2 {
+    position: absolute;
+    background: rgb(204, 255, 0);
+  }
+
+  .squareRightTop1,
+  .squareRightTop2,
+  .squareRightBottom1,
+  .squareRightBottom2,
+  .squareLeftTop1,
+  .squareLeftTop2,
+  .squareLeftBottom1,
+  .squareLeftBottom2 {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: rgb(204, 255, 0);
+  }
+
+  /* Example positioning for one of them (others can follow similar) */
+  .lineRight1 { top: 0; right: 0; width: 100%; height: 2px; }
+  .lineLeft1 { bottom: 0; left: 0; width: 100%; height: 2px; }
+
+  .squareRightTop1 { top: -4px; right: -4px; }
+  .squareRightBottom1 { bottom: -4px; right: -4px; }
+  .squareLeftTop1 { top: -4px; left: -4px; }
+  .squareLeftBottom1 { bottom: -4px; left: -4px; }
+
+  /* Same for button2's shapes */
+  .lineRight2 { top: 0; right: 0; width: 100%; height: 2px; }
+  .lineLeft2 { bottom: 0; left: 0; width: 100%; height: 2px; }
+
+  .squareRightTop2 { top: -4px; right: -4px; }
+  .squareRightBottom2 { bottom: -4px; right: -4px; }
+  .squareLeftTop2 { top: -4px; left: -4px; }
+  .squareLeftBottom2 { bottom: -4px; left: -4px; }
+
+  /* Responsive tweaks */
+  @media (max-width: 768px) {
+    .homesec5 h1 {
+      font-size: 32px;
+    }
+    .homesec5 p {
+      font-size: 1rem;
+    }
+    .contentWrapper {
+      top: 10%;
+      left: 5%;
+      max-width: 90%;
+    }
+  }
+
+
+
+  /* homesec5 */
+
+
+  /* box */
+  .headingWrapper5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .side5 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .square5 {
+    width: 12px;
+    height: 12px;
+    background-color: rgb(204, 255, 0); /* apni color pasand se */
+  }
+
+  .line5 {
+    width: 50px; /* apne hisab se */
+    height: 2px;
+    background-color: rgb(204, 255, 0); /* apni color pasand se */
+  }
+
+
+
+  /* box */
+
+  .homesec5 {
+    position: relative;
+    display: inline-block;
+  }
+
+  .homesec5 img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .contentWrapper {
+    position: absolute;
+    top: 10%; /* Image ke upar se distance */
+    left: 5%; /* Image ke left se distance */
+    color: white;
+      margin-top: 20%;
+      text-align: left;
+  }
+
+  .headingWrapper5 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Left align karega */
+  }
+
+
+  .homesec5 h3 {
+    color: rgb(204, 255, 0);
+    font-size: 1.2rem;
+    font-family: mainfont;
+    letter-spacing: 2px;
+  text-align: left;
+
+    display: block; /* Inline-flex effect hata dega */
+    text-align: left;
+
+  }
+
+  .homesec5 h1 {
+    font-size: 50px;
+    font-family: mainfont;
+    margin: 10px 0;
+  }
+
+  .homesec5 p {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: rgb(187, 168, 168);
+  }
+
+  .button5Container {
+    display: flex;
+    gap: 15px;
+    text-align: left;
+  }
+
+
+  /* homesec5 */
+
+
+
+
+
+
+
+
+
+
+  /* box */
+  .headingWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .side {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .square {
+    width: 12px;
+    height: 12px;
+    background-color: rgb(204, 255, 0); /* apni color pasand se */
+  }
+
+  .line {
+    width: 50px; /* apne hisab se */
+    height: 2px;
+    background-color: rgb(204, 255, 0); /* apni color pasand se */
+  }
+
+  .headingText {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  /* box */
+
+  .main h2 {
+    color: rgb(204, 255, 0);
+    margin: 0;
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 4px black;
+      font-family: sans-serif;
+      letter-spacing  : 3px;
+  }
+
+
+  @font-face {
+    font-family: mainfont2;
+    src: url("/fonts/");
+  }
+
+
+
+
+  .main h1 {
+    margin: 0;
+    font-size: 3rem;
+    text-shadow: 2px 2px 8px black;
+    color: white;
+      font-family: mainfont;
+      line-height: 70px;
+    }
+
+  @font-face {
+    font-family: mainfont;
+    src: url("/fonts/TT Octosquares Trial Bold.ttf");
+  }
+
+
+
+  .buttonContainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+
+  /* ================= BUTTON 1 (VIEW MORE) ================= */
+  .button1 {
+    position: relative;
+    display: inline-block;
+    padding: 15px 40px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    transition: 0.3s ease;
+      background: rgb(204, 255, 0);
+      color: black;
+  }
+
+  /* Lines */
+  .lineLeft1, .lineRight1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 25px;
+    background-color: black;
+  }
+  .lineLeft1 { left: 10px; }
+  .lineRight1 { right: 10px; }
+
+  /* Squares */
+  .squareLeftTop1, .squareRightTop1 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+  }
+  .squareLeftBottom1, .squareRightBottom1 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 2px solid black;
+    background: transparent;
+  }
+
+  .squareLeftTop1 { left: 6px; top: calc(50% - 16px); }
+  .squareLeftBottom1 { left: 6px; bottom: calc(50% - 16px); }
+  .squareRightTop1 { right: 6px; top: calc(50% - 16px); }
+  .squareRightBottom1 { right: 6px; bottom: calc(50% - 16px); }
+
+
+  /* hover */
+
+  .button1 {
+    position: relative;
+    display: inline-block;
+    padding: 15px 40px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    transition: 0.3s ease;
+    background: rgb(204, 255, 0);
+    color: black;
+  }
+
+  /* Default lines for button1 */
+  .lineLeft1, .lineRight1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 25px;
+    background-color: black;
+  }
+  .lineLeft1 { left: 10px; }
+  .lineRight1 { right: 10px; }
+
+  /* Default squares for button1 */
+  .squareLeftTop1, .squareRightTop1,
+  .squareLeftBottom1, .squareRightBottom1 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+  }
+  .squareLeftTop1, .squareRightTop1 {
+    background-color: black;
+  }
+  .squareLeftBottom1, .squareRightBottom1 {
+    border: 2px solid black;
+    background: transparent;
+  }
+  .squareLeftTop1 { left: 6px; top: calc(50% - 16px); }
+  .squareLeftBottom1 { left: 6px; bottom: calc(50% - 16px); }
+  .squareRightTop1 { right: 6px; top: calc(50% - 16px); }
+  .squareRightBottom1 { right: 6px; bottom: calc(50% - 16px); }
+
+  /* 🔹 Hover Effect to look like button2 */
+  .button1:hover {
+    background: rgb(30, 33, 24);
+    color: white;
+  }
+
+  /* Hover lines change */
+  .button1:hover .lineLeft1,
+  .button1:hover .lineRight1 {
+    background-color: white;
+  }
+
+  /* Hover squares change */
+  .button1:hover .squareLeftTop1,
+  .button1:hover .squareRightTop1 {
+    background-color: white;
+  }
+
+  .button1:hover .squareLeftBottom1,
+  .button1:hover .squareRightBottom1 {
+    border-color: white;
+  }
+
+  /* hover */
+
+
+  /* ================= BUTTON 2 (SHOP NOW) ================= */
+  .button2 {
+    position: relative;
+    display: inline-block;
+    padding: 15px 40px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    transition: 0.3s ease;
+    background: rgb(30, 33, 24);    
+    
+    border-top: 2px solid white;   /* Top border */
+    border-bottom: 2px solid white; /* Bottom border */
+  }
+
+
+  /* Lines */
+  .lineLeft2, .lineRight2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 25px;
+    background-color: white;
+  }
+  .lineLeft2 { left: 10px; }
+  .lineRight2 { right: 10px; }
+
+  /* Squares */
+  .squareLeftTop2, .squareRightTop2 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+  }
+  .squareLeftBottom2, .squareRightBottom2 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 2px solid white;
+    background: transparent;
+  }
+
+  .squareLeftTop2 { left: 6px; top: calc(50% - 16px); }
+  .squareLeftBottom2 { left: 6px; bottom: calc(50% - 16px); }
+  .squareRightTop2 { right: 6px; top: calc(50% - 16px); }
+  .squareRightBottom2 { right: 6px; bottom: calc(50% - 16px); }
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .contentWrapper {
+    top: auto;
+    bottom: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    max-width: 90%;
+  }
+  .headingWrapper5 {
+    justify-content: center;
+  }
+  .homesec5 h1 {
+    font-size: 26px;   /* thoda chhota */
+    line-height: 1.3;
+    margin-bottom: 10px;
+  }
+  .homesec5 h3 {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+  }
+  .homesec5 p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin-bottom: 15px;
+  }
+  .button5Container {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .button1, .button2 {
+    padding: 10px 18px;   /* chhota size */
+    font-size: 13px;
+    width: auto;          /* ✅ full-width hata diya */
+  }
+}
+
+/* Small mobile view */
+@media (max-width: 576px) {
+  .homesec5 h1 {
+    font-size: 20px;   /* aur chhota */
+    line-height: 1.2;
+  }
+  .homesec5 p {
+    font-size: 0.85rem;
+    line-height: 1.3;
+  }
+  .button1, .button2 {
+    padding: 8px 16px;   /* aur chhota button */
+    font-size: 12px;
+    width: auto;         /* ✅ button responsive rahega */
+  }
+  .button5Container {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+}
+
+/* Extra small mobile */
+@media (max-width: 400px) {
+  .homesec5 h1 {
+    font-size: 18px;
+  }
+  .homesec5 p {
+    font-size: 0.8rem;
+  }
+  .button1, .button2 {
+    padding: 7px 14px;
+    font-size: 11px;
+  }
+}
