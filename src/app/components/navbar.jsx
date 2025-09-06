@@ -7,6 +7,8 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 
+// import cartview from '../components/cartview'
+
 export default function Navbar() {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
@@ -62,6 +64,20 @@ export default function Navbar() {
             CONTACT
           </Link>
         </li>
+
+        
+       <li>
+  <Link
+    href="/cartview"
+    className={`${styles.link} ${
+      pathname === "/page" ? styles.active : ""
+    }`}
+  >
+  </Link>
+</li>
+
+
+
       </ul>
 
       {/* Right - Icons */}

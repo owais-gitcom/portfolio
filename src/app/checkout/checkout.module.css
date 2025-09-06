@@ -1,0 +1,83 @@
+.checkoutContainer {
+  background: #10110e;
+  color: #fff;
+  font-family: "Orbitron", sans-serif;
+  padding-bottom: 3rem;
+  min-height: 100vh;
+}
+
+/* Hero Section */
+.heroSection {
+  background: url("/cartimg.jfif") no-repeat center/cover;
+  text-align: center;
+  padding: 4rem 1rem;
+  color: #dbfc17;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Checkout Form */
+.checkoutForm {
+  max-width: 700px;
+  margin: 2rem auto;
+  background: #1c1e18;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.checkoutForm h2 {
+  margin-bottom: 1rem;
+  color: #dbfc17;
+  font-size: 1.5rem;
+}
+
+.inputGroup {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputGroup label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.inputGroup input {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
+}
+
+.paymentOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.submitBtn {
+  width: 100%;
+  padding: 1rem;
+  background: #dbfc17;
+  color: #10110e;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submitBtn:hover {
+  background: #c4e414;
+}
